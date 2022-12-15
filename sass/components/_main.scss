@@ -1,0 +1,44 @@
+.background {
+    position: relative;
+    max-width: 1922px;
+    height: 650px;
+    background-size: 1922px 650px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/pexels-photo-115045.jpeg);
+}
+
+.main-block-1 {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+}
+
+.main-block-2 {
+    position: absolute;
+    bottom: 170px;
+    right: 100px;
+}
+
+.main-block-1__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.main-block-1__paragraph {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    display: block;
+    color: #ffffff;
+}
+
+.main-block-2__paragraph {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    position: relative;
+    width: auto;
+    height: auto;
+    color: #ffffff;
+}

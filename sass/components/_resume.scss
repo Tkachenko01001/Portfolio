@@ -1,0 +1,162 @@
+.resume {
+    padding: 50px;
+}
+
+.resume__title {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 29px;
+}
+
+.resume__title:before {
+    content: "";
+    position: absolute;
+    background: #199cdb;
+    height: 2px;
+    left: 0;
+    top: -20px;
+    width: 30px;
+    border-radius: 10px;
+   }
+
+   .resume__block {
+    border: 1px solid #eaeaea;
+    position: relative;
+    padding: 50px;
+    width: 33.33%;
+   }
+
+   .resume__display {
+    display: flex;
+    gap: 15px;
+   }
+
+   .resume-icon__fill {
+    position: absolute;
+    top: 17px;
+    right: 50px;
+   }
+
+   .resume-icon__fill {
+    fill: #333;
+   }
+
+   .resume-display-1 {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-evenly;
+   }
+
+   .resume-header {
+    position: relative;
+    font-family: "Oswald",sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 19px;
+    margin-bottom: 10px;
+   }
+
+   .resume-time {
+    font-family: "Oswald",sans-serif;
+    color: #666666;
+    font-size: 12px;
+    font-weight: 300;
+   }
+
+   .border-resume-text {
+    background: #199cdb;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 1px 8px;
+   }
+
+   .resume-text {
+    position: relative;
+    font-family: "Oswald",sans-serif;
+    color: #777;
+    font-weight: 300;
+    line-height: 28px;
+    font-size: 19px;
+    margin-top: 10px;
+   }
+
+   .ball::after {
+    background: #199cdb;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    content: "";
+    height: 14px;
+    left: -25.3px;
+    position: absolute;
+    top: 9px;
+    width: 14px;
+   }
+
+   .list-mod {
+    margin-top: 40px;
+   }
+
+.line {
+    position: relative;
+}
+
+.list-mod::before {
+    bottom: 0;
+    content: "";
+    left: -19px;
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(to bottom, #eaeaea 1%,#eaeaea 75%,#ffffff 100%);
+}
+
+.skills-list {
+    font-family:"Oswald",sans-serif;
+    margin-top: 40px;
+}
+
+.rating span {
+    background: #199cdb;
+    display: inline-block;
+    height: 3px;
+    margin-right: 10px;
+    width: 45px;
+}
+
+.rating span.last-rating {
+    opacity: 0.3;
+    background: #333;
+}
+
+.skills-list__line {
+    margin-bottom: 20px;
+}
+
+.interests-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 94px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.interests-list__line {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.interests-list__icon {
+    fill: #199cdb;
+}
+
+.interests-list__border {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 45px;
+    border: 1px solid;
+    border-radius: 50%;
+    border-color: #199cdb;
+}
