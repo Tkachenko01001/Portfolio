@@ -3,9 +3,10 @@
     display: flex;
     justify-content: center;
 }
-.nav-list__button {
+.nav-list__link {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
+    color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,6 +18,8 @@
     transition: all 0.3s;
     position: relative;
     cursor: pointer;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover {
         color: #ffffff;
@@ -35,9 +38,10 @@
     }
 }
 
-.nav-list__button-1 {
+.nav-list__link-1 {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
+    color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,7 +71,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
-.nav-list__button--width {
+.nav-list__link--width {
     display: flex;
     flex-direction: column;
     width: 270px;
@@ -83,8 +87,9 @@
 }
 
 .header-position {
-    max-width: 1922px;
+    width: 100%;
     height: 65px;
     background-color: #ffffff;
+    position: fixed;
 }
 
