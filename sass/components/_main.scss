@@ -5,16 +5,8 @@
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/pexels-photo-115045.jpeg);
 }
 
-.main-block-1 {
-    position: absolute;
-    top: 150px;
-    left: 100px;
-}
-
-.main-block-2 {
-    position: absolute;
-    bottom: 250px;
-    right: 100px;
+.main-block {
+    margin-top: 150px;
 }
 
 .main-block-1__title {
@@ -36,7 +28,7 @@
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     font-size: 13px;
-    position: relative;
+    
     width: auto;
     height: auto;
     color: #ffffff;
