@@ -17,8 +17,8 @@ h4,
 h5,
 h6,
 p {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -29,6 +29,7 @@ a {
 .container {
   margin: 0 auto;
   padding: 20px;
+  width: 1600px;
 }
 
 .nav-list {
@@ -151,16 +152,14 @@ a {
 }
 
 .header-position {
-  width: 100%;
   height: 65px;
   background-color: #ffffff;
-  position: fixed;
 }
 
 .background {
-  max-width: 1922px;
+  max-width: 2100px;
   height: 650px;
-  background-size: 1922px 650px;
+  background-size: 2100px 650px;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/pexels-photo-115045.jpeg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/pexels-photo-115045.jpeg);
 }
