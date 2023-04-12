@@ -29,7 +29,7 @@ a {
 .container {
   margin: 0 auto;
   padding: 20px;
-  width: 1600px;
+  max-width: 1600px;
 }
 
 .nav-list {
@@ -347,6 +347,11 @@ a {
   top: -20px;
   width: 30px;
   border-radius: 10px;
+}
+
+.list__line-soft {
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 15px;
 }
 
 .resume__block {
