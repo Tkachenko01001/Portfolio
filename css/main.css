@@ -152,8 +152,11 @@ a {
 }
 
 .header-position {
+  width: 100%;
+  z-index: 1;
   height: 65px;
-  background-color: #ffffff;
+  background-color: #fff;
+  position: fixed;
 }
 
 .background {
