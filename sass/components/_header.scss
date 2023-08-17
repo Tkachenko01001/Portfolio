@@ -1,96 +1,35 @@
-
-.nav-list {
-    display: flex;
-    justify-content: center;
-}
-.nav-list__link {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    color: #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    width: 125px;
-    height: 65px;
-    border: none;
-    background-color: #ffffff;
-    transition: all 0.3s;
-    position: relative;
-    cursor: pointer;
-    transition-duration: 300ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover {
-        color: #ffffff;
-        background-color: #199cdb;
-        letter-spacing: 2px;
-        border-radius: 5px;
-        width: 150px;
-    }
-
-    &:hover .nav-list__text {
-        color: #ffffff;
-    }
-    
-    &:hover .nav-list__icon {
-        fill: #ffffff;
-    }
-}
-
-.nav-list__link-1 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    color: #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    width: 125px;
-    height: 65px;
-    border: none;
-    background-color: #ffffff;
-    transition-duration: 300ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
-
-    &:hover {
-        color: #ffffff;
-        background-color: #199cdb;
-        border-radius: 5px;
-    }
-
-    &:hover .nav-list__text {
-        color: #ffffff;
-    }
-}
-
-.nav-list__icon {
-    fill: #199cdb;
-    transition-duration: 300ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-} 
-
-.nav-list__link--width {
-    display: flex;
-    flex-direction: column;
-    width: 270px;
-    font-size: 28px;
-}
-
-.nav-list__text {
-    font-family: 'Oswald', sans-serif;
-    font-size: 12px;
-    color: #999999;
-    transition-duration: 300ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .header-position {
-    width: 100%;
-    z-index: 1;
-    height: 65px;
-    background-color: #fff;
-    position: fixed;
+    padding: 20px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+};
+
+.header-title {
+    font-family: "Oswald", sans-serif;
+    color: #333333;
+    font-weight: 300;
+    font-size: 29px;
+}
+
+.header-list__line-border {
+    display: flex;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+    color: #333333;
+    font-weight: 300;
+    font-size: 29px;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        background: linear-gradient(to right, transparent, #199cdb, transparent);
+        bottom: -22px;
+        width: 1700px;
+        height: 2px;
+    }
 }
 
