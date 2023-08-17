@@ -5,6 +5,12 @@
 .header-list {
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 540px) {
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 10px;
+    }
 };
 
 .header-title {
@@ -30,6 +36,14 @@
         bottom: -22px;
         width: 1700px;
         height: 2px;
+
+        @media screen and (max-width: 540px) {
+            bottom: -55px;
+        }
     }
-}
+
+    @media screen and (max-width: 540px) {
+        justify-content: flex-start;
+    }
+};
 
