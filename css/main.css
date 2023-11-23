@@ -78,26 +78,13 @@ a {
   font-size: 29px;
   position: relative;
 }
-.header-list__line-border::after {
-  content: "";
-  position: absolute;
+
+.under-line {
   background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#199cdb), to(transparent));
   background: linear-gradient(to right, transparent, #199cdb, transparent);
-  bottom: -22px;
-  width: 1700px;
+  width: 100%;
   height: 2px;
-}
-@media screen and (max-width: 540px) {
-  .header-list__line-border::after {
-    bottom: -55px;
-  }
-}
-@media screen and (max-width: 540px) {
-  .header-list__line-border {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
+  margin-top: 22px;
 }
 
 .portfolio__list {
